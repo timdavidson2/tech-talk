@@ -18,5 +18,5 @@ if (process.env.JAWSDB_URL) {
     }
   );
 }
-
+// export module for use in app
 module.exports = sequelize;
