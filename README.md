@@ -23,31 +23,31 @@ There are no files to download for this project.
 
 The packages required to run are:
 
--bcrypt
+- bcrypt
 
--connect-session-sequelize
+- connect-session-sequelize
 
--dotenv
+- dotenv
 
--express
+- express
 
--express-handlebars
+- express-handlebars
 
--express-session
+- express-session
 
--mysql2
+- mysql2
 
--sequelize 
+- sequelize
 
-A database will need to be created first then seeded wih data. 
+A database will need to be created first then seeded wih data.
 
 ## Usage
 
-To start the process, go to the deployed site [here](https://arcane-shore-27269.herokuapp.com/)
+To start the process, go to the deployed site [here]()
 
 Then create an account or view the first few blogs and comments.  
 
-![An example blog:](assets/images/tech_blog.png)
+![An example blog:]()
 
 ## License
 
@@ -57,7 +57,7 @@ Source link for [MIT](https://opensource.org/licenses/MIT)
 
 ## Contributors
 
-Cody Gallagher
+Tim Davidson
 
 ## Tests
 
@@ -65,6 +65,6 @@ There are currently no tests for this application.
 
 ## Contact
 
-[GitHub Profile](https://github.com/CodyG-2021)
+[GitHub Profile](https://github.com/timdavidson2)
 
-Email Me -- gallagher2021@gmail.com
+Email Me -- timdavidson2@gmail.com
