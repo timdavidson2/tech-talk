@@ -1,6 +1,6 @@
 const NewsAPI = require("newsapi");
 require("dotenv").config();
-const newsapi = new NewsAPI(APIKEY);
+const newsapi = new NewsAPI(API_KEY);
 
 newsapi.v2
   .sources({
