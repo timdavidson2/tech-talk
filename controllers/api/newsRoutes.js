@@ -1,0 +1,1 @@
+const NewsAPI = require("newsapi");
