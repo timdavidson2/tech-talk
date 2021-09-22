@@ -40,6 +40,8 @@ The packages required to run are:
 
 - sequelize
 
+- newsapi
+
 A database will need to be created first then seeded wih data.
 
 ## Usage
@@ -68,4 +70,4 @@ There are currently no tests for this application.
 
 [GitHub Profile](https://github.com/timdavidson2)
 
-[Email Me](timdavidson2@gmail.com)
+Email Me -- timdavidson2@gmail.com
