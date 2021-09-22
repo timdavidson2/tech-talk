@@ -9,6 +9,7 @@ News.init(
       type: DataTypes.STRING,
       allowNull: false,
       primaryKey: true,
+      autoIncrement: false,
     },
     name: {
       type: DataTypes.STRING,
