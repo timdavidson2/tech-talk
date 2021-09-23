@@ -28,10 +28,14 @@ router.get("/", async (req, res) => {
       .topHeadlines({
         // sources: "bbc-news,the-verge",
         // q: "bitcoin",
+        name: "",
+        description: "",
+        url: "",
+        urlToImage: "",
         category: "technology",
         language: "en",
         country: "us",
-        page: 10,
+        pageSize: 6,
       })
       .then((response) => {
         articles = response.articles;
