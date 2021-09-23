@@ -46,11 +46,12 @@ A database will need to be created first then seeded wih data.
 
 ## Usage
 
-To start the process, go to the deployed site [here]()
+To start the process, go to the deployed site [here](https://calm-crag-12462.herokuapp.com/)
 
 Then create an account or view the first few blogs and comments.  
 
-![An example blog:]()
+Screenshot
+![An example blog:](./img/screenshot.png)
 
 ## License
 
