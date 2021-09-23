@@ -10,7 +10,7 @@ h2 {
 
 .navTitle {
   font-weight: 900;
-  font-size: xx-large;
+  font-size: 4rem;
 }
 
 .blogBox {
@@ -27,12 +27,13 @@ h2 {
   border-style: solid;
   margin-bottom: 5px;
   padding: 2px;
-  background-color: rgb(139, 161, 205);
+  background-color: rgb(162, 180, 215);
 }
 
 .blogDescMain {
-  font-weight: 700;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 2rem;
+  font-family: cursive;
 }
 
 .blogDescTwo {
@@ -51,7 +52,7 @@ h2 {
 .blogBoxCont {
   margin-top: 10px;
   border-style: solid;
-  background-color: rgb(188, 194, 200);
+  background-color: rgb(126, 134, 174);
 }
 
 .formCont {
@@ -66,11 +67,12 @@ h2 {
   margin-right: auto;
   margin-top: 10px;
   max-width: 75%;
-  background-color: rgb(148, 173, 200);
+  background-color: rgb(176, 194, 213);
 }
 
 .commentOwner {
-  font-size: 14px;
+  font-size: 1.5rem;
+  font-family: cursive;
 }
 
 .btnComment {
@@ -80,6 +82,7 @@ h2 {
 .commentText {
   font-weight: bold;
   font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding-top: 12px;
   background-color: rgb(148, 173, 200);
 }
@@ -94,10 +97,10 @@ h2 {
 }
 
 a:link {
-  color: rgb(178, 218, 58);
+  color: rgb(58, 111, 218);
 }
 a:visited {
-  color: rgb(182, 179, 41);
+  color: rgb(41, 175, 182);
 }
 
 a:hover {
