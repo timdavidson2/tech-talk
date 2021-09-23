@@ -9,7 +9,7 @@
     "seed": "node seeds/seed.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tim Davidson",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.0",
