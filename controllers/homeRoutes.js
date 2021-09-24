@@ -3,7 +3,7 @@ const { User, Blog, Comment, News } = require("../models");
 const withAuth = require("../utils/auth");
 require("dotenv").config();
 const NewsAPI = require("newsapi");
-const newsapi = new NewsAPI(process.env.API_KEY);
+const newsapi = new NewsAPI("ec2db157b85f4ea890c9724032b7dea5");
 
 router.get("/", async (req, res) => {
   try {
