@@ -31,7 +31,7 @@ router.get("/", async (req, res) => {
         category: "technology",
         language: "en",
         country: "us",
-        page: 10,
+        page: 6,
       })
       .then((response) => {
         articles = response.articles;
