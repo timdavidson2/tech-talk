@@ -35,11 +35,7 @@ router.get("/", async (req, res) => {
         category: "technology",
         language: "en",
         country: "us",
-<<<<<<< HEAD
-        page: 6,
-=======
         pageSize: 6,
->>>>>>> e149164f2e5e8fdab9010a5669a6399d31021ef3
       })
       .then((response) => {
         articles = response.articles;
