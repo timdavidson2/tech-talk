@@ -1,15 +1,15 @@
 {
   "name": "tech-talk",
   "version": "1.0.0",
-  "description": "",
+  "description": "An app that allows users to blog about the tech news of the day.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "seed": "node seeds/seed.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Tim Davidson",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.0",

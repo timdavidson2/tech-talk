@@ -3,7 +3,7 @@ const { User, Blog, Comment, News } = require("../models");
 const withAuth = require("../utils/auth");
 require("dotenv").config();
 const NewsAPI = require("newsapi");
-const newsapi = new NewsAPI(process.env.API_KEY);
+const newsapi = new NewsAPI("ec2db157b85f4ea890c9724032b7dea5");
 
 router.get("/", async (req, res) => {
   try {
@@ -28,10 +28,18 @@ router.get("/", async (req, res) => {
       .topHeadlines({
         // sources: "bbc-news,the-verge",
         // q: "bitcoin",
+        name: "",
+        description: "",
+        url: "",
+        urlToImage: "",
         category: "technology",
         language: "en",
         country: "us",
+<<<<<<< HEAD
         page: 6,
+=======
+        pageSize: 6,
+>>>>>>> e149164f2e5e8fdab9010a5669a6399d31021ef3
       })
       .then((response) => {
         articles = response.articles;

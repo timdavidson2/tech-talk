@@ -33,7 +33,16 @@
 {{/each}}
 
 {{#each articles as |article|}}
-  <li>{{article.title}}</li>
-  <li>{{article.description}}</li>
-  <li>{{article.url}}</li>
+  <div class="card mt-3">
+    <h5 class="card-header">{{article.title}}</h5>
+    <div class="card-body">
+      <h5 class="card-title">{{article.author}}</h5>
+      <p class="card-text">{{article.description}}</p>
+      <a
+        href="{{article.url}}"
+        target="_blank"
+        class="btn btn-outline-primary"
+      >Read More</a>
+    </div>
+  </div>
 {{/each}}
